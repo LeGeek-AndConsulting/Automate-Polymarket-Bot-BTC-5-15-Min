@@ -8,6 +8,4 @@ python-dotenv
 web3
 eth-account
 uvloop
-fastapi
-uvicorn
 orjson
