@@ -1,90 +1,92 @@
 # Automate-Polymarket-Bot-BTC-5-15-Min
 Automatisez un robot de trading Polymarket pour les marchés BTC de 5 et 15 minutes avec OpenClaw
 
-🚀 Bot De Trading Polymarket BTC 5 Et 15 Minutes Avec OpenClaw
-📌 Description Du Projet
+README.md Automate PolyMarket
 
-Ce Projet Permet D’Automatiser Un Bot De Trading Sur Les Marchés BTC 5 Et 15 Minutes De Polymarket En Utilisant OpenClaw.
-Le Système Détecte Les Divergences Entre Le Prix Réel Du Bitcoin Et Les Probabilités Affichées Sur Polymarket, Puis Exécute Automatiquement Des Positions UP Ou DOWN.
+Voici Ton README.md Reformaté Avec :
+* ✅ Majuscule À Chaque Début De Mot
+* ✅ Emoji Adaptés
+* ✅ Structure Propre Et Professionnelle
+* ✅ Ton Marketing Conservé
+* ✅ Mise En Page Optimisée
 
-⚡ Principe De Fonctionnement
-⏱ Détection Ultra Rapide Des Variations De Prix 📊 Comparaison Avec Les Probabilités Polymarket 🤖 Exécution Automatique Des Ordres 💰 Arbitrage Sur Fenêtre Courte Durée
-🧠 Logique Simplifiée
-1. Récupération Du Prix Réel BTC (Exchange / Oracle)
-2. Récupération Des Probabilités Du Marché 5 Ou 15 Minutes
-3. Calcul De La Probabilité Théorique
-4. Détection D’Un Gap
-5. Ouverture Automatique D’Une Position
+🚀 Automate-Polymarket-Bot-BTC-5-15-Min
+🤖 Automatisez Un Robot De Trading Polymarket Pour Les Marchés BTC De 5 Et 15 Minutes Avec OpenClaw
+L’Un Des Marchés De Prédiction Les Plus Rentables Est Celui Du Bitcoin (Hausse Ou Baisse) Sur 5 À 15 Minutes.
+Des Traders Qui Maîtrisent Certaines Stratégies Génèrent Plus De 20 000 $ Par Jour 💰
+J’Ai Trouvé Un Moyen D’Automatiser Ce Processus Grâce À OpenClaw.
+📌 Avant De Commencer, Ajoutez Cette Page À Vos Favoris 📢 Publication Quotidienne D’Alpha Sur Polymarket Et Autres Plateformes
 
-🏗 Architecture Du Bot
-Price Feed (WebSocket)
-        ↓
-Signal Engine
-        ↓
-Risk Manager
-        ↓
-Execution Engine (API Polymarket)
-        ↓
-Monitoring & Logs
+⚡ Principe Du Bot
+Ce Bot Détecte Le Prix Réel Plus Rapidement Que Polymarket.
+Il Anticipe Le Mouvement Avant Même Que Polymarket Ne Réagisse Et Entre En Premier.
 
-🛠 Installation
+⏱ Timeline D’Exécution
+* 📈 Évolution Réelle Du Prix : (T = 0 Ms)
+* 🤖 Réaction Des Bots : (T = +10–15 Ms)
+* 🏛 Réaction De Polymarket : (T = +20–35 Ms)
+🎯 Fenêtre Exploitable Δt ≈ 5 Ms
+
+🔥 Exemples De Profils Performants
+Des Traders Ont Littéralement Changé De Vie En Tradant BTC Et ETH Sur 5/15 Minutes.
+👤 0x8dxd
+
+Profil : 313 $ → 729 189 $ En Un Mois https://polymarket.com/@0x8dxd
+👤 k9Q2mX4L8A7ZP3R
+
+Profil : 1 277 $ → 510 000 $ En Un Mois https://polymarket.com/@k9Q2mX4L8A7ZP3R
+Ils Ouvrent Plus De 100 Transactions Par Jour Et Génèrent Plus De 20 000 $ Quotidiens.
+
+🧠 Automatisation Avec OpenClaw
+Grâce À OpenClaw :
+📡 Le Système Suit Les Variations De Prix En Temps Réel 📊 Compare Avec Polymarket ⚡ Détecte Un Gap 💰 Ouvre Automatiquement Une Position
+Tout Fonctionne En Boucle Rapide.
+
+🛠 Mise En Œuvre
 1️⃣ Créer Un Dépôt GitHub
-Créer Un Nouveau Repository Et Y Ajouter Les Fichiers Du Bot.
+Rendez-Vous Sur GitHub Créez Un Nouveau Dépôt (Nom Libre)
 
-2️⃣ Copier Le Template
-Récupérer Les Fichiers Depuis :
-https://clawhub.ai/adlai88/polymarket-fast-loop
-Puis Les Copier Dans Votre Dépôt.
+2️⃣ Copier Le Template Prêt À L’Emploi
+Accédez À : https://clawhub.ai/adlai88/polymarket-fast-loop
 
-3️⃣ Déploiement Sur Railway
-🌐 Créer Un Compte Sur Railway 🔗 Connecter Votre Dépôt GitHub 🚀 Déployer Le Projet
-Ajouter Ensuite :
-* Votre Clé API Polymarket
-* Votre Clé OpenClaw
-* Les Variables D’Environnement
+Tous Les Fichiers Sont Déjà Préparés.
+Copiez Les Fichiers Et Le Code Dans Votre Dépôt.
+✅ Aucun Programme Caché ✅ Aucune Donnée Personnelle Collectée
 
-🔌 Exemple De Boucle De Trading
-while True:
-    real_price = get_exchange_price()
-    polymarket_prob = get_polymarket_prob()
-    fair_prob = model(real_price)
+3️⃣ Déploiement Gratuit Sur Railway
 
-    if fair_prob - polymarket_prob > threshold:
-        place_order("UP", size)
+🌐 https://railway.com/
 
-    elif polymarket_prob - fair_prob > threshold:
-        place_order("DOWN", size)
+Étapes :
+1. Créer Un Profil
+2. Créer Un Projet Avec Votre Dépôt GitHub
+3. Sélectionner Le Dépôt
+4. Lancer Le Déploiement
 
-    sleep(0.2)
+🔐 Configuration Finale
 
-📊 Fonctionnalités
-✅ Analyse Continue Des Marchés ✅ Détection Automatique Des Opportunités ✅ Gestion Dynamique Du Risque ✅ Exécution Rapide Des Ordres ✅ Claim Automatique Des Gains
+Après Déploiement :
 
-📈 Gestion Du Risque
-⚠ Ne Jamais All-In 📉 Limiter Chaque Position À 1–3% Du Capital 🛑 Stop Après Plusieurs Pertes Consécutives 📊 Backtest Avant Déploiement Réel
+* Ajouter Votre Clé API Personnelle
+* Vérifier L’Intégration Du SDK OpenClaw
+* Déposer Un Petit Montant Test
+Tout Se Lance Automatiquement.
 
-🔥 Optimisations Avancées
-🚀 Hébergement VPS Faible Latence 📡 WebSocket Direct Exchange 🧮 Modèle Probabiliste Amélioré ⚙ Ajustement Dynamique Des Seuils
+🔄 Fonctionnement Automatique
+Le Bot :
 
-💰 Exemple De Résultat
-📈 Capital Initial : 100$ 💵 Profit Après 3 Jours : 821$
-⚠ Les Performances Passées Ne Garantissent Pas Les Résultats Futurs.
+🔍 Analyse Les Marchés Toutes Les 5 Minutes 📊 Affiche La Divergence Des Prix 💱 Identifie La Paire (BTC / ETH / SOL) ⚡ Lance L’Arbitrage En Boucle Rapide 💰 Affiche Le Gain Réalisé
 
-📦 Lancement
-Après Configuration :
-npm install
-npm start
-Ou
-python main.py
+📈 Exemple De Résultat
 
-🧩 Roadmap
-* 🔍 Ajout Multi Paires (ETH / SOL)
-* 🤖 Intégration IA Pour Filtrage Avancé
-* 📊 Dashboard De Monitoring
-* 📈 Module De Backtesting
+💵 Capital Initial : 100 $ 📊 Résultat Après 3 Jours : 821 $
+Pas Mal Pour Un Début 🚀
 
-⚖ Disclaimer
-Ce Projet Est Fourni À Des Fins Éducatives. Le Trading Automatisé Comporte Des Risques Importants. Vous Êtes Responsable De Vos Décisions Financières.
+⚠ Avertissement Important
+Le Trading Automatisé Comporte Des Risques.
+Les Performances Passées Ne Garantissent Pas Les Résultats Futurs.
+Commencez Toujours Avec Un Petit Capital Test.
 
 🌟 Support
-Si Ce Projet Vous Aide, Pensez À Mettre Une ⭐ Sur Le Dépôt Et À Le Partager !
+Si Ce Projet Vous Aide :
+⭐ Mettez Une Étoile Sur Le Dépôt  📢 Partagez-Le  🚀 Continuez À Optimiser
