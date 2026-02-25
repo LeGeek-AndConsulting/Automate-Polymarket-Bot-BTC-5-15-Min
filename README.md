@@ -1,15 +1,6 @@
 # Automate-Polymarket-Bot-BTC-5-15-Min
 Automatisez un robot de trading Polymarket pour les marchés BTC de 5 et 15 minutes avec OpenClaw
 
-README.md Automate PolyMarket
-
-Voici Ton README.md Reformaté Avec :
-* ✅ Majuscule À Chaque Début De Mot
-* ✅ Emoji Adaptés
-* ✅ Structure Propre Et Professionnelle
-* ✅ Ton Marketing Conservé
-* ✅ Mise En Page Optimisée
-
 🚀 Automate-Polymarket-Bot-BTC-5-15-Min
 🤖 Automatisez Un Robot De Trading Polymarket Pour Les Marchés BTC De 5 Et 15 Minutes Avec OpenClaw
 L’Un Des Marchés De Prédiction Les Plus Rentables Est Celui Du Bitcoin (Hausse Ou Baisse) Sur 5 À 15 Minutes.
